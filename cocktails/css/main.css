@@ -1,0 +1,108 @@
+ body { 
+       background: url('images/wood-Background-1867x2800.png') no-repeat center center fixed;
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+       
+    }
+
+#header{	
+	margin-left: auto;
+	   margin-right: auto;
+	  width: 810px;
+	  height: 245px;
+	  margin-bottom: -27px;
+	  }
+
+#header-top{
+      height: 38px;
+      background-image:  url('images/heading-top.png');
+}
+
+#header-middle{	  
+	  background-color: #c69c6d;
+	  height: 107px;
+	
+}
+
+#header-bottom{
+     background-image:  url('images/heading-top.png');  
+     height: 20px;   
+}
+
+.links-header{
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.links {
+      color: white;
+      font-family: Gill Sans, sans-serif;
+}
+
+#footer{
+   margin-left: auto;
+	   margin-right: auto;
+	   width: 810px;
+	   
+}
+
+#footer-top{
+   background-image:  url('images/heading-top.png');  
+     height: 17px;  
+}
+
+#footer-middle{
+     background-image:  url('images/footer-middle.png');  
+     height: 95px;  
+}
+
+#footer-bottom{
+      background-image:  url('images/footer-bottom.png');  
+      height: 26px;  
+}
+
+.ckt-menu{
+    list-style-type: none;
+     margin-left: auto;
+	   margin-right: auto;
+}
+
+ul.ckt-menu li {
+   display: inline;
+   
+}
+
+#middle-part{
+    background-image:  url('images/wood-middle.png');  
+     background-size: contain;
+    position: relative;
+    margin-left: auto;
+	margin-right: auto;
+	height: 680px;
+	width: 750px;
+	margin-bottom: 119px;
+	z-index: -1;  
+}
+
+ul.ckt-menu li img {
+   height: 120px;
+   width: 80px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+#strawberry-cocktail{
+     background-image:  url('images/cocktails-glasses-strawberryWeb.png'); 
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+     position: absolute;
+     right: -102px;
+     top: 151px;
+     height: 656px;
+     width: 390px;
+     z-index: 0;
+}

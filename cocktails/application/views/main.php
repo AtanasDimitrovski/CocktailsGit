@@ -36,7 +36,7 @@
    </div>  
    <!-- Menu cocktail -->  
      <div id="cocktails-by-letter" >
-        <span style="padding-left: 35px; font-size: 20px; color: white;">Choose a cocktail:</span>
+        <span class="choose-edit" >Choose a cocktail:</span>
         <ul class="letters">
          <?php for($i=65; $i < 90; $i++){ ?> 
          	 <li class="letter-link"><a href="http:\\google.com"><?php print(chr($i))?></a></li> <span style="color: white">|</span>

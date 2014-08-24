@@ -68,11 +68,15 @@
     list-style-type: none;
      margin-left: auto;
 	   margin-right: auto;
+	 
+}
+
+#cocktail-menu{
+    
 }
 
 ul.ckt-menu li {
    display: inline;
-   
 }
 
 #middle-part{
@@ -124,7 +128,7 @@ a:visited{
 }
 
 a:hover {
-   color: black;
+   color: #620611;
 }
 
 
@@ -137,7 +141,7 @@ a:hover {
     width: 810px;
     margin-left: auto;
     margin-right:  auto;
-    margin-top: -54px;
+    margin-top: -88px;
 }
 
 .box{
@@ -181,4 +185,11 @@ a:hover {
     position:  absolute;
     padding-left: 30px;
     padding-top: 18px;
+}
+
+.choose-edit{
+     font-family: Freehand521 BT;
+    font-size: 42px;
+    color: #620611;
+    padding-left: 35px;
 }

@@ -148,7 +148,7 @@ a:hover {
     width: 810px;
     margin-left: auto;
     margin-right:  auto;
-    margin-top: -88px;
+    margin-top: -3px;
 }
 
 .box{
@@ -192,6 +192,27 @@ a:hover {
     position:  absolute;
     padding-left: 30px;
     padding-top: 18px;
+}
+
+.arrow-left{
+    width: 31px;
+    padding-top: 30px;
+}
+
+.arrow-right{
+    width: 31px;
+    transform: rotate(180deg);
+    padding-bottom: 30px;
+}
+
+#arrow-left{
+   float: left;
+   
+}
+
+#arrow-right{
+   float: right;
+   
 }
 
 .choose-edit{

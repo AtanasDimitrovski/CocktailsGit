@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['password'] = 'pass34pass12';
 $db['default']['database'] = 'cocktails_cocktailsdb';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

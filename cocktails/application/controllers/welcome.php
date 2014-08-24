@@ -24,15 +24,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-	/////komentarceee
 		$data = "";
 		$data['cocktail_list_db'] = $this->cocktail_model->getAllCocktails();
 		$data['cocktail_menu'] = $this->load->view('cocktail_menu', $data, true);
 		$this->load->view('main', $data);
-	}
-	
-	public function test(){
-	    $this->load->view('main');
 	}
 }
 

@@ -27,18 +27,26 @@
        <div id="strawberry-cocktail">
        </div>
        <div id="cocktail-categories">
-          <ul class="ckt-category">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-          </ul>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
        </div>
    </div>  
    <!-- Menu cocktail -->  
+     <div id="cocktails-by-letter" >
+        <span style="padding-left: 35px; font-size: 20px; color: white;">Choose a cocktail:</span>
+        <ul class="letters">
+         <?php for($i=65; $i <= 90; $i++){ ?> 
+         	 <li class="letter-link"><a href="google.com"><?php print(chr($i))?> </a></li> | 
+         	<?php 
+         }?>
+         </ul>
+     </div>
+     
 	     <div id="cocktail-menu">
-	         <?php  echo @$cocktail_menu;?>
+	         <?php echo @$cocktail_menu;?>
 	      </div>
    
    <div id="footer">

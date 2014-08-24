@@ -66,17 +66,23 @@
 
 .ckt-menu{
     list-style-type: none;
-     margin-left: auto;
-	   margin-right: auto;
+    margin-left: auto;
+	margin-right: auto;
+    padding-left: 0;
 	 
 }
 
 #cocktail-menu{
+    margin-left: auto;
+	margin-right: auto;
+	background: rgba(255, 250, 250, 0.3);
+	width:800px;
     
 }
 
 ul.ckt-menu li {
    display: inline;
+
 }
 
 #middle-part{
@@ -94,8 +100,9 @@ ul.ckt-menu li {
 ul.ckt-menu li img {
    height: 120px;
    width: 80px;
-   padding-left: 15px;
-   padding-right: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
+ 
 }
 
 #strawberry-cocktail{

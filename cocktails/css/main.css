@@ -114,9 +114,19 @@ ul.ckt-menu li img {
     font-size: 20px;
 }
 
-a{
-
+a:link {
+  color: white;
+  text-decoration: none;
 }
+
+a:visited{
+   color: white;
+}
+
+a:hover {
+   color: black;
+}
+
 
 .letter-link{
    display: inline;
@@ -128,4 +138,47 @@ a{
     margin-left: auto;
     margin-right:  auto;
     margin-top: -54px;
+}
+
+.box{
+      background-image:  url('images/box.png'); 
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 179px;
+      position: absolute;
+      z-index: 1;           
+}
+
+.first-box{
+     top: 30px;
+     left: 30px;
+}
+
+.second-box{
+     top: 115px;
+     left: 309px;
+}
+
+.third-box{
+     top: 220px;
+     left: 30px;
+}
+
+.fourth-box{
+    top: 305px;
+    left: 309px;
+}
+
+.fifth-box{
+     top: 409px;
+     left: 30px;
+}
+
+.text-category{
+    font-family: Freehand521 BT;
+    font-size: 32px;
+    position:  absolute;
+    padding-left: 30px;
+    padding-top: 18px;
 }

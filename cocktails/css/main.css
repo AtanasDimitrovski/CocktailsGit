@@ -106,3 +106,26 @@ ul.ckt-menu li img {
      width: 390px;
      z-index: 0;
 }
+
+.letters{
+ list-style-type: none;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 20px;
+}
+
+a{
+
+}
+
+.letter-link{
+   display: inline;
+   color: white;  
+}
+
+#cocktails-by-letter{
+    width: 810px;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-top: -54px;
+}

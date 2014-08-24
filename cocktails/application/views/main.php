@@ -1,8 +1,18 @@
 <html>
 <head>
+ <script type="text/javascript" src="jquery/jquery-1.8.3.min.js"></script>
  <link rel="stylesheet" type="text/css" href="../cocktails/css/main.css">
 </head>
-
+<script>
+    $(document).ready(function(){
+        $('.arrow').hover(function(){
+        	$(this).attr('src','css/images/arrow-Glow.png');
+            }, function(){
+            	  $(this).attr('src','css/images/arrow-noGlow.png');
+                });
+   
+        });
+</script>
 <body>
 
   <div id="header">
@@ -35,8 +45,19 @@
        </div>
    </div>  
    <!-- Menu cocktail -->  
+    <div style="margin-left: auto; margin-right: auto; width: 810px; margin-top: -85px">
+     <span class="choose-edit" >Choose a cocktail:</span>
+    </div>
+    
+     <div id="cocktail-menu">
+	        <div id="arrow-left"><img class="arrow arrow-left" src="css/images/arrow-noGlow.png"></div>
+	        <div id="arrow-right"><img class="arrow arrow-right" src="css/images/arrow-noGlow.png"></div>
+	         <?php echo @$cocktail_menu;?>
+	         
+	      </div>
+   
      <div id="cocktails-by-letter" >
-        <span class="choose-edit" >Choose a cocktail:</span>
+        
         <ul class="letters">
          <?php for($i=65; $i < 90; $i++){ ?> 
          	 <li class="letter-link"><a href="http:\\google.com"><?php print(chr($i))?></a></li> <span style="color: white">|</span>
@@ -46,9 +67,7 @@
          </ul>
      </div>
      
-	     <div id="cocktail-menu">
-	         <?php echo @$cocktail_menu;?>
-	      </div>
+	     
    
    <div id="footer">
     <div id="footer-top">

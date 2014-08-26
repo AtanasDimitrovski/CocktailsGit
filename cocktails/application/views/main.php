@@ -1,7 +1,9 @@
 <html>
 <head>
- <script type="text/javascript" src="jquery/jquery-1.8.3.min.js"></script>
+ <script type="text/javascript" src="library/jquery-1.8.3.min.js"></script>
+ <script type="text/javascript" src="library/jquery.jcarousel.min.js"></script>
  <link rel="stylesheet" type="text/css" href="../cocktails/css/main.css">
+ <link rel="stylesheet" type="text/css" href="../cocktails/css/skin.css">
 </head>
 <script>
     $(document).ready(function(){
@@ -10,7 +12,10 @@
             }, function(){
             	  $(this).attr('src','css/images/arrow-noGlow.png');
                 });
-   
+
+        $('.ckt-menu').jcarousel();
+  
+        
         });
 </script>
 <body>
@@ -50,10 +55,7 @@
     </div>
     
      <div id="cocktail-menu">
-	        <div id="arrow-left"><img class="arrow arrow-left" src="css/images/arrow-noGlow.png"></div>
-	        <div id="arrow-right"><img class="arrow arrow-right" src="css/images/arrow-noGlow.png"></div>
-	         <?php echo @$cocktail_menu;?>
-	         
+	         <?php echo @$cocktail_menu;?>	         
 	      </div>
    
      <div id="cocktails-by-letter" >

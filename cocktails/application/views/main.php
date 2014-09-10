@@ -2,21 +2,14 @@
 <head>
  <script type="text/javascript" src="library/jquery-1.8.3.min.js"></script>
  <script type="text/javascript" src="library/jquery.jcarousel.min.js"></script>
+ <script type="text/javascript" src="library/jquery-ui.js"></script>
+ <script type="text/javascript" src="library/jquery-Cocktails.js"></script>
+ 
  <link rel="stylesheet" type="text/css" href="../cocktails/css/main.css">
  <link rel="stylesheet" type="text/css" href="../cocktails/css/skin.css">
 </head>
 <script>
-    $(document).ready(function(){
-        $('.arrow').hover(function(){
-        	$(this).attr('src','css/images/arrow-Glow.png');
-            }, function(){
-            	  $(this).attr('src','css/images/arrow-noGlow.png');
-                });
 
-        $('.ckt-menu').jcarousel();
-  
-        
-        });
 </script>
 <body>
 

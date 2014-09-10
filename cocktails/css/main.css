@@ -87,15 +87,16 @@ ul.ckt-menu li {
 }
 
 #middle-part{
-    background-image:  url('images/wood-middle.png');  
-     background-size: contain;
+    background-image:  url('images/wood-middle-withNewBorder2.png');  
+     background-size: cover;
+     background-repeat: no-repeat;
     position: relative;
     margin-left: auto;
 	margin-right: auto;
-	height: 680px;
-	width: 750px;
+	height: 826px;
+	width: 810px;
 	margin-bottom: 119px;
-	z-index: -1;  
+	/* z-index: -1;  */
 }
 
 ul.ckt-menu li img {
@@ -116,7 +117,7 @@ ul.ckt-menu li img {
      top: 151px;
      height: 656px;
      width: 390px;
-     z-index: 0;
+    /* z-index: 0; */
 }
 
 .letters{
@@ -159,7 +160,7 @@ a:hover {
       width: 300px;
       height: 179px;
       position: absolute;
-      z-index: 1;           
+     /* z-index: 1;*/           
 }
 
 .first-box{
@@ -214,6 +215,12 @@ a:hover {
 #arrow-right{
    float: right;
    
+}
+
+#cocktail-categories{
+   top: 29px;
+    position: relative;
+    left: 23px;
 }
 
 .choose-edit{
